@@ -1,0 +1,10 @@
+[user]
+	email = pablo.aguilar@fatec.sp.gov.br
+	name = Pablo Aguilar
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[alias]
+	please = push --force-with-lease
