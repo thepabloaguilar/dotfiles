@@ -6,3 +6,6 @@ To setup .dotfiles to home directory, execute the following commands:
     cd dotfiles
     ./setup-dotfiles
 ```
+
+# Special Thanks
+Many thanks to [bruno-delfino1995](https://github.com/bruno-delfino1995), that showed to me this wonderful trick with .dotfiles and provided a shell script to put .dotfiles in their right place.
