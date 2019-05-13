@@ -27,7 +27,7 @@ font pango:DejaVu Sans Mono, Awesome 10
 # font, it doesn’t scale on retina/hidpi displays.
 
 # start rofi (app launcher)
-bindsym $mod+d exec --no-startup-id "rofi -modi drun,run,calc,window -show drun"
+bindsym $mod+space exec --no-startup-id "rofi -modi drun,run,calc,window -show drun"
 
 # start i3lock (lockscreen)
 bindsym $mod+Mod1+p exec i3lock -c 000000
@@ -39,7 +39,7 @@ floating_modifier $mod
 bindsym $mod+Return exec terminator
 
 # kill focused window
-bindsym $mod+Shift+q kill
+bindsym $mod+q kill
 
 # change focus
 bindsym $mod+h focus left
@@ -66,7 +66,7 @@ bindsym $mod+Shift+Up move up
 bindsym $mod+Shift+Right move right
 
 # split in horizontal orientation
-bindsym $mod+h split h
+# bindsym $mod+h split h
 
 # split in vertical orientation
 bindsym $mod+v split v
@@ -200,12 +200,12 @@ client.focused_inactive #073642 #073642 #eee8d5 #6c71c4
 client.unfocused #073642 #073642 #93a1a1 #586e75
 client.urgent #d33682 #d33682 #fdf6e3 #dc322f
 
-gaps outer 5
-gaps inner 10
+# gaps outer 5
+# gaps inner 10
 
-smart_gaps on
-smart_borders no_gaps
+# smart_gaps on
+# smart_borders no_gaps
 
 # Client to workspace assignments
-for_window [class="^.*"] border pixel 1
-new_window 1pixel
+# for_window [class="^.*"] border pixel 1
+# new_window 1pixel
