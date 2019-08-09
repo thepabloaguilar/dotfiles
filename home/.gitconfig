@@ -8,3 +8,5 @@
 	required = true
 [alias]
 	please = push --force-with-lease
+	tree = log --oneline --decorate --graph
+	b = rev-parse --abbrev-ref HEAD
