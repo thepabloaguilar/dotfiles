@@ -40,3 +40,6 @@ color7  = #abb2bf
 color15 = #828997
 
 vim: ft=dosini cms=#%s
+
+[options]
+font = FiraCode 10
