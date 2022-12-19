@@ -1,7 +1,5 @@
 # My .dotfiles
 
- 
-
 My setup:
 
 * Distro: [Arch Linux](https://www.archlinux.org)
@@ -14,13 +12,9 @@ My setup:
 
 * Notification Daemon: [Dunst](https://dunst-project.org)
 
-* Terminal: [Termite](https://github.com/thestinger/termite)
-
-  
+* Terminal: [Alacritty](https://github.com/alacritty/alacritty)
 
 ![Desktop](screenshots/desktop.png)
-
-
 
 To setup .dotfiles to home directory, execute the following commands:
 
@@ -29,8 +23,6 @@ To setup .dotfiles to home directory, execute the following commands:
     cd dotfiles
     ./setup-dotfiles
 ```
-
-
 
 # Special Thanks
 

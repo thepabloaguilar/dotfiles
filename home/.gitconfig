@@ -1,5 +1,5 @@
 [user]
-	email = pablo.aguilar@fatec.sp.gov.br
+	email = pablo.aguilar@outlook.com.br
 	name = Pablo Aguilar
 [filter "lfs"]
 	clean = git-lfs clean -- %f
@@ -12,3 +12,9 @@
 	b = rev-parse --abbrev-ref HEAD
 [core]
 	excludesfile = ~/.gitignore
+	autocrlf = input
+[commit]
+	gpgsign = true
+[init]
+	defaultBranch = main
+

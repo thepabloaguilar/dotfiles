@@ -226,7 +226,7 @@ label-foreground = #B48EAD
 
 [module/wlan]
 type = internal/network
-interface = wlp60s0
+interface = wlan0
 interval = 3.0
 
 ; WIRELESS CONNECTED
@@ -251,7 +251,7 @@ ramp-signal-5 = 
 
 [module/eth]
 type = internal/network
-interface = enp59s0
+interface = enp3s0
 interval = 3.0
 
 format-connected-prefix = " "

@@ -1,0 +1,7 @@
+import:
+  - /home/pabloaguilar/.config/alacritty/themes/dracula.yml
+
+env:
+  # Without this configuration we have a big difference
+  # of the font size between monitors.
+  WINIT_X11_SCALE_FACTOR: "1"
